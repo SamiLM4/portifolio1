@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,400&display=swap");
+
+body {
+  background: linear-gradient(210.85deg, #000000 27.26%, #1c1c1c 60.5%);
+
+  font-family: "Noto Sans", sans-serif;
+
+  color: #8a2be2;
+}
+
+.container {
+  background: #00ffff;
+  color: #dc143c;
+  margin: 10px;
+  border-radius: 50px;
+  box-shadow: 6px 6px 10px #cd853f;
+  padding: 10px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.fotodeperfil {
+  border-radius: 1000px;
+  max-height: 85px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0.25);
+}
+.titulo {
+  margin-left: 10px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 100;
+  font-size: 15px;
+}
+.tema button {
+  font-size: 15px;
+  font-weight: 200;
+  padding: 8px 16px;
+  background: #dcdcdc;
+  border-radius: 20px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #cd853f 27.49%, #a0522d 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+.projetotitulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.projeto-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  font-weught: 56px;
+}
+
+.projeto-item a {
+  color: #7b68ee;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #4f4f4f 27.26% #696969 96.03%);
+}
+.dark .container {
+  background: #4f4f4f;
+  color: #dcdcdc;
+}
+.dark .projetos {
+  color: #1c1c1c;
+}
+.dark .tema button {
+  bakcground: #1c1c1c;
+  color: #000000;
+}
